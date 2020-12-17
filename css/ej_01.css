@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Press+Start+2P&display=swap');
+
+body {
+  color: white;
+  background-color: rgb(155, 0, 0);
+  font-family: 'Marcellus SC', serif;
+}
+
+h3{
+  color: white;
+  background-color: rgb(225, 0, 0);
+  font-family: 'Press Start 2P', cursive;
+}
+h5{
+/* background-color: rgb(200, 0, 0);*/
+}
+
+p {
+/* background-color: rgb(175, 0, 0);*/
+}
+ul {
+  color: : white;
+/* background-color: rgb(225, 0, 0);*/
+}
+
+.button {
+  color: rgb(255, 255, 255);
+}
+.button:hover {
+  color: rgb(0, 0, 0);
+}
+
+.vinculo {
+  color: rgb(150, 225, 100);
+}
+.vinculo:hover {
+  color: rgb(155, 0, 155);
+  text-decoration: none;
+}
