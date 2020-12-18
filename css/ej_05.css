@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Press+Start+2P&display=swap');
+
+body {
+  color: white;
+  background-color: black;
+  background-image: url(../img/wallpaper.jpg);
+  font-family: 'Marcellus SC', serif;
+}
+
+h4{
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  /*font-family: 'Press Start 2P', cursive;*/
+}
+
+/* Selectores personalizados */
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.centrar {
+  text-align: center;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12%;
+  width: 60%;
+  border: 2px solid white;
+}
+.display-image {
+  margin-left: 21%;
+}
+.foto-perfil {
+  display: block;
+  margin-left: auto;
+  border-radius: 21px;
+  border: 2px solid black;
+}
+.Perfil {
+  margin-left: 81%;
+}
+.nav-wrapper {
+  background-color: black;
+}
+.row {
+  padding: 21px;
+}
+.contenedor {
+  background-color: rgb(100, 0, 0);
+  margin: 50px auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.collapsible {
+  color: black;
+}
+.collapsible-body {
+  color: white;
+}
+.row-images {
+  display: block;
+  height: 50%;
+}

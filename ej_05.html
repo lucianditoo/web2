@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Ejercicio 5</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/ej_05.css">
+  <link rel="stylesheet" href="css/scrollup.css">
+  <link rel="stylesheet" href="css/lightbox.css"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <!-- Script
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/ej_05.js"></script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/dsfav.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container contenedor">
+    <div class="row">
+      <div class="col s6">
+        <h3>Salbitano Luciano</h3>
+        <ul>
+          <li>68609/5</li>
+          <li>luciano.sith@gmail.com</li>
+          <li>Tecnologias Web</li>
+        </ul>
+      </div>
+      <div class="col s6">
+        <img src="img/foto.jpg" alt="foto perfil" class="foto-perfil">
+        <a href="img/foto.jpg" data-lightbox="image-1" data-title="Salbitano Luciano" class="Perfil">ver</a>
+      </div>
+    </div>
+    <div class="row-nav">
+      <div class="col s12">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="https://processing.org/" class="brand-logo">Programacion</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#processing">Processing</a></li>
+              <li><a href="#proyecto">Proyecto</a></li>
+              <li><a href="#video">Gameplay</a></li>
+              <li><a href="#download">Descargar</a></li>
+            </ul>
+          </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#processing">Processing</a></li>
+          <li><a href="#proyecto">Proyecto</a></li>
+          <li><a href="#video">Gameplay</a></li>
+          <li><a href="#download">Descargar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h4>Una presentacion de los trabajos realizados en Tecno Multimedia 1 con Processing.</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <h5 id="processing">Que es Processing ?</h5>
+        Processing es un software de sketchbook flexible y un lenguaje para aprender a programar codigo dentro del contexto de las artes visuales. Desde el 2001, Processing ha promovido su software dentro de la tecnologia y la literatura de las artes visuales. Hay miles de millones de estudiantes, artistas, diseñadores, investigadores, y tambien quienes por hobby usan Processing para aprender a prototipar.
+      </div>
+      <div class="col s12 m6 l6">
+        <h5>Caracteristicas de Processing</h5>
+        <ol>
+          <li>Es gratis y Open Source.</li>
+          <li>Interactivo con programas 2D, 3D, PDF, o SVG output.</li>
+          <li>Integracion con OpenGL para aceleracion 2D y 3D.</li>
+          <li>Disponible para Linux, MAC, Windows, Android y ARM.</li>
+          <li>Mas de 100 librerias incorporadas.</li>
+          <li>Bien documentado y varios libros sobre el tema.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <h5 id="proyecto">De que trata este proyecto ?</h5>
+        En el contexto de la programacion para las artes visuales hemos comenzado aprendiendo lo mas basico de processing, sus funciones principales, interacciones, ciclos FOR, IF, programacion orientada a objetos (CLASS) y como resultado hemos logrado programar diferentes tipos de juegos, aplicaciones y aventuras graficas a pedido de los profesores para poner en practica todos estos conocimientos y aplicarlos de manera correcta y ordenada.
+      </div>
+      <div class="col s12 m4 l4">
+        <h5>Tematica</h5>
+        Mi trabajo esta orientado al universo de los videojuegos de Dark Souls, tematica que use para desarrollar una aventura grafica y un mini juego de tipo scroll lateral en la que nuestro personaje (un caballero) debera abrirse paso a traves de una incesante lluvia de flechas para recolectar almas para su proposito final (ser el ser mas fuerte de todos). En el universo de Dark souls, uno nunca muere, por lo que las almas siempre regresan a la ultima hoguera en la que descansaron para volver a la vida y terminar su proposito.
+      </div>
+      <div class="col s12 m4 l4">
+        <h5>Como se hizo el juego</h5>
+        <p>El juego esta programado 100% con Processing, he incluido la funcion de la libreria P3D la cual permite el uso de la grafica para acelerar los frames por segundo y reducir el tiempo de carga de las imagenes, ya que processing en su funcion "draw" se ejecuta 60 veces (o frames) por segundo lo cual realentiza un poco el equipo si es que tiene que cargar muchas cosas y no dispone de la grafica para hacerlo. He logrado de esta manera acelerar el juego para que funcione con fluidez y sea mas responsivo a la hora del gameplay, espero que lo puedan probar y se diviertan jugando un buen rato con el</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5 id="video" class="centrar">Gameplay</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yS8k4G6rXTg" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5 id="download" class="centrar">Descargar</h5>
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header"><i class="material-icons"></i>Como Jugar ?</div>
+            <div class="collapsible-body"><span>Los juegos son intuitivos y no requieren mas que hacer algun click o usar las flechas del teclado >.< Mas abajo esta el link a mi google drive que lleva a una carpeta con los juegos para Windows y Linux :3</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons"></i>Como descargar ?</div>
+            <div class="collapsible-body"><span>Simplemente entra al link, elije descargar el minijuego o el juego completo, asegurate de que sea para tu sistema operativo (windos o linux de 32 o 64 bits respectivamente) y dale click derecho a la carpeta y descargar :D</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons"></i>Link de Descarga</div>
+            <div class="collapsible-body"><span><a href="https://drive.google.com/drive/folders/1JIQ-xOR4TVpfYIAd6-8Ja-MvbN76PpZk?usp=sharing">Ir al drive</a></span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row-images">
+      <div class="col s12">
+        <h5 id="img" class="centrar">Imagenes del proyecto</h5>
+        <img class="image" src="img/aventura1.jpg" alt="foto perfil">
+        <a href="img/aventura1.jpg" data-lightbox="image-1" data-title="Salbitano Luciano" class="display-image">DS_Adventure "Menu"</a>
+        <img class="image" src="img/aventura2.jpg" alt="foto perfil">
+        <a href="img/aventura2.jpg" data-lightbox="image-1" data-title="Salbitano Luciano" class="display-image">DS_Adventure "comienzo"</a>
+        <img class="image" src="img/aventura3.jpg" alt="foto perfil">
+        <a href="img/aventura3.jpg" data-lightbox="image-1" data-title="Salbitano Luciano" class="display-image">DS_Adventure "MidGame"</a>
+        <img class="image" src="img/minijuego.jpg" alt="foto perfil">
+        <a href="img/minijuego.jpg" data-lightbox="image-1" data-title="Salbitano Luciano" class="display-image">DS_Storm_Arrows "DS Adventure Minigame"</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/inicializar.js"></script>
+  <script src="js/lightbox.js"></script>
+  <a href="#up" class="simplescrollup__button simplescrollup__button--hide"> <img src="img/scrollup.png" alt="scrollup"> </a>
+  <script src="js/simplescrollup.js"></script>
+</body>
+</html>
