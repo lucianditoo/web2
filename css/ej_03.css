@@ -1,0 +1,12 @@
+img {
+  display: block;
+  width: 60%;
+  margin-left: 80px;
+}
+body {
+  color: white;
+  background-color: rgb(21, 21, 21);
+}
+.container {
+  background-color: black;
+}
